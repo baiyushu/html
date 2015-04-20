@@ -15,7 +15,7 @@ class FiledownloadAction extends Action {
 		readfile("Public/up/download/".$filename);
 		exit;
 		}else{
-		$this->redirect('down_file','',3,"文件不存在！等待返回.......");
+		$this->redirect('__URL__/index','',3,"文件不存在！等待返回.......");
 		}
 		
             
