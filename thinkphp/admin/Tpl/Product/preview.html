@@ -1,0 +1,17 @@
+﻿<include file="Public/html/common1.html"/>
+
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;产品信息&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+<div class="product">
+<img src='__PUBLIC__/up/Product_image/<{$list[0].image_name}>'/>
+<p>【药品名称】<{$list[0].name}></p>
+<volist name="list" id="vo">
+<p>【<{$vo.attribute}>】<{$vo.value}></p>
+</volist>
+</div>
+</div>
+<include file="Public/html/common2.html"/>

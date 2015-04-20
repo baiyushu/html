@@ -1,0 +1,19 @@
+﻿<include file="Public/html/common1.html"/>
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;新闻浏览&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+<div class="title">
+<{$list[0].news_title}>
+</div>
+<div class="new_attr">
+发布时间:<{$list[0].news_date}>&nbsp;&nbsp;
+浏览量:<{$list[0].views}>
+</div>
+<div class="content">
+<{$list[0].news_content}>
+</div>
+</div>
+<include file="Public/html/common2.html"/>

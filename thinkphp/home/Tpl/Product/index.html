@@ -1,0 +1,24 @@
+﻿<include file="Public/html/front.html"/>
+<include file="Public/QQ/index.html"/>
+<include file="Public/html/front_product.html"/>
+
+<link rel="stylesheet" href="__PUBLIC__/Css/front.css">
+<link rel="stylesheet" href="__PUBLIC__/Css/front1.css">
+
+<div class="right_wrap">
+
+<volist name="list" id="vo">
+<div class="product_image">
+<a href="__URL__/product_details/name/<{$vo.name}>">
+<img alt="<{$vo.name}>" title="<{$vo.name}>" src="__PUBLIC__/up/Product_image/<{$vo.image_name}>"/></a>
+<a href="__URL__/product_details/name/<{$vo.name}>"><{$vo.name}></a> 
+</div>
+</volist>
+
+<div class="clr"></div>
+<div class="page_list"><{$page}></div>
+</div>
+
+
+<include file="Public/html/front1.html"/>
+

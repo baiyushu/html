@@ -1,0 +1,27 @@
+﻿<include file="Public/html/common1.html"/>
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;资料上传&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<script>
+function myFunction(){
+$("#add_file").append("<br/>文件描述：<input type='text'name='des\[\]'/><br/>"+
+"选择文件：<input type='file' name='file\[\]'/>");
+}
+</script> 
+<div class="wrap">
+<form id="form1" name="form1" method="post" action="__URL__/up_file.php" enctype="multipart/form-data">
+
+<div id="add_file">
+文件描述：<input type="text" list="list" name="des[]" /><br/>
+选择文件：<input type="file" name='file[]'/>
+</div>
+
+<input type="button" class="b0" id="add" onclick="myFunction()"  value="添加" /><br/>
+<input type="submit" class="b0" name="Subfile" value="提交" />
+</form>
+</div>
+
+
+<include file="Public/html/common2.html"/>

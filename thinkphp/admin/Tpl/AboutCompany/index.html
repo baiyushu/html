@@ -1,0 +1,43 @@
+﻿<include file="Public/html/common1.html"/>
+
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;关于我们&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<script>
+
+function myFunction(){
+$("#add_img").append("<input type='file'  name='file\[\]' />&nbsp;图片位置:"+
+"<select name='pos\[\]'>"+
+"<option value='1'>1段前</option>"+
+"<option value='2'>2段前</option>"+
+"<option value='3'>3段前</option>"+
+"<option value='4'>4段前</option>"+
+"<option value='5'>5段前</option>"+
+"<option value='6'>6段前</option>"+
+"<option value='7'>7段前</option>"+
+"</select><br/>"+
+"图片描述:"+
+"<textarea name='des\[\]' cols='70' rows='3'></textarea><br/>"
+);
+}
+ </script>
+
+<div class="wrap">
+<form id="form1" name="form1" method="post" action="__URL__/update_about_company"  enctype="multipart/form-data">
+类型：
+<select name="type">
+<option value="1">公司简介</option>
+<option value="2">企业文化</option>
+<option value="3">公司资质</option>
+</select>
+
+<div><textarea name="brif_cont" cols="90" rows="30" wrap="physical"></textarea></div>
+<div id="add_img"><input type="button" class="b0" id="add"  onclick="myFunction()" value="添加图片" /><br/>
+
+</div>
+<div><input class="b0" type="submit" name="Submit" value="更新" /></div>
+</form>
+</div>
+<include file="Public/html/common2.html"/>

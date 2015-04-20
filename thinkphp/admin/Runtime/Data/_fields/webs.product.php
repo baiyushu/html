@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'Id', 1 => 'type1', 2 => 'type2', 3 => 'name', 4 => 'attribute', 5 => 'value', 6 => 'image_name', '_autoinc' => true, '_pk' => 'Id', '_type' => array ( 'Id' => 'int(11)', 'type1' => 'varchar(5)', 'type2' => 'varchar(5)', 'name' => 'varchar(20)', 'attribute' => 'varchar(15)', 'value' => 'varchar(50)', 'image_name' => 'varchar(255)', ), );?>

@@ -1,0 +1,21 @@
+﻿<include file="Public/html/front.html"/>
+<include file="Public/QQ/index.html"/>
+<include file="Public/html/front_product.html"/>
+
+<link rel="stylesheet" href="__PUBLIC__/Css/front.css">
+<link rel="stylesheet" href="__PUBLIC__/Css/front1.css">
+
+
+<div class="right_wrap">
+<div class="product">
+
+<img src='__PUBLIC__/up/Product_image/<{$list[0].image_name}>'/>
+<p>【药品名称】<{$list[0].name}></p>
+<volist name="list" id="vo">
+<p>【<{$vo.attribute}>】<{$vo.value}></p>
+</volist>
+
+</div>
+</div>
+
+<include file="Public/html/front1.html"/>

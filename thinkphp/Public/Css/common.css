@@ -1,0 +1,38 @@
+﻿*{parding:0;margin:0;}
+h4{ margin:25px 0;font-size:20px; }
+a{text-decoration:none;color:#557;}
+a:hover{color:#966}
+textarea{ margin-top:10px;padding:10px;margin-bottom:20px;background:#cdc;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;} 
+input{ margin:10px 0;background:#cdc;height:25px; width:218px;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;}
+select{background:#cdc;height:25px; width:100px;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;}
+
+.b0{ margin:5px 0px;width:60px;height:30px;background:#99e; }
+.b0:hover{ background:#99a; }
+.b1{ margin:5px 0px;width:40px;height:25px;background:#66d; }
+.b1:hover{ background:#779; }
+
+body{ color:#444;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;font-size:16px;}
+
+.wrap{
+width:600px;
+margin:30px auto;
+}
+
+.main_content{ width:600px;margin:30px auto;padding:20px 0;border-bottom:1px solid #666; }
+.main{background:#6699CC;font-size:15px;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;overflow:auto;}
+.content img{ width:100%;}
+.content p{  margin-top:25px;font-size:14px; text-indent:30px;line-height:25px;
+             font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;  }
+.page_list{ margin-top:40px;font-size:16px;}
+.title{  text-align:center;font-family:"微软雅黑";font-size:25px;margin:20px 0;  } 
+.new_attr{  text-align:center;font-size:14px;color:#668;}
+.current{ background:#999;position:relative;width:110%;left:-7px;height:20px;line-height:20px; }
+.img_p{ margin-top:0;color:#666;text-align:center;font-family:"微软雅黑";font-size:15px;  }
+.product{ }
+.product img{ width:100%;height:100%;margin-bottom:30px;}
+.product p{ margin:10px 0 ;font-size:20px;}
+.product_image {float:left;margin:0px 0px;}
+.product_image a{display:block;text-align:center;margin:5px 0;}
+.product_image img{  float:left;width:175px;height:140px;border:#ddd solid 1px;}
+.clr{clear:both;}
+.password{ height:200px;width:400px;margin:100px 0px;}

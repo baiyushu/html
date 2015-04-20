@@ -1,0 +1,33 @@
+[ 2015-04-14T21:18:05+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `web_about_company` [ RunTime:0.057003s ]
+SQL: SELECT * FROM `web_about_company` WHERE ( `type` = 1 )  [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `web_news_content` [ RunTime:0.062004s ]
+SQL: SELECT * FROM `web_news_content` WHERE ( `type` = 1 ) ORDER BY news_date LIMIT 0,7   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `web_technology_suport` [ RunTime:0.064004s ]
+SQL: SELECT * FROM `web_technology_suport` WHERE ( `type` = 0 ) LIMIT 0,7   [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `web_download_filename` [ RunTime:0.048003s ]
+SQL: SELECT * FROM `web_download_filename` LIMIT 0,7   [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `web_product` [ RunTime:0.057003s ]
+SQL: SELECT DISTINCT  `name`,`image_name` FROM `web_product` LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `web_company_information` [ RunTime:0.059004s ]
+SQL: SELECT * FROM `web_company_information` WHERE ( `type` = 'QQ' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `web_company_information`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.025001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.197011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197011s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.014001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.023002s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.015001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.016000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.018001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.018001s ]
+

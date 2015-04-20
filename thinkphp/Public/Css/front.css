@@ -1,0 +1,85 @@
+*{ padding:0;margin:0;}
+body{ font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;font-size:14px;}
+body{
+    background: -webkit-linear-gradient(#0af, #fff,#fff, #fff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#0af, #fff,#fff, #fff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#0af, #fff,#fff, #fff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#0af, #fff,#fff, #fff); /* 标准的语法 */ 
+	 }
+
+textarea{ margin-top:10px;padding:10px;margin-bottom:20px;background:#cdc;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;} 
+input{ margin:10px 0;background:#cdc;height:25px; width:218px;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;}
+select{background:#cdc;height:25px; width:100px;font-family:Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;}
+
+
+
+.b0{ margin:5px 0px;width:60px;height:30px;background:#99e; }
+.b0:hover{ background:#99a; }
+.b1{ margin:5px 0px;width:40px;height:25px;background:#66d; }
+.b1:hover{ background:#779; }
+
+.cl{clear:both;}
+ul{list-style:none; border:0px #003366 solid; border-radius:5px;}
+a{ text-decoration:none; display:block; background:#06C;}
+a{
+ background: -webkit-linear-gradient(#0af, #05b); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#0af, #05b); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#0af, #05b); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#0af,#05b); /* 标准的语法 */
+}
+a:hover{ background:#59e;}
+
+.wrap{ width:1000px;margin:-20px auto;border:0px #000000 solid;}
+.head{height:100px;}
+.logo{margin-top:10px; height:80%;width:50%;}
+
+td{ padding:5px 0;border-bottom:1px #003366 dashed;}
+
+
+.nav{ z-index:8;  position:absolute;top:0;}
+.nav0{width:1000px;height:50px;background:#06c;}
+.nav0{  
+  background: -webkit-linear-gradient(#0af, #05b); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#0af, #05b); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#0af, #05b); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#0af,#05b); /* 标准的语法 */
+      }
+.nav0 >li{ float:left;}
+.nav0 a{ height:50px;width:120px; text-align:center;line-height:50px; font-size:17px; color:#fff;font-family:"黑体"}
+ 
+.nav1 a{
+  border-bottom:1px #09d dashed;
+  background:#0af;
+ }
+ .nav1 a:hover{ background:#0cf; }
+ 
+.nav1 li{width:117px;position:relative; }
+.nav2{ position:absolute;top:0px;left:120px;}
+.nav1 { display:none;}
+.nav2 { display:none;}
+.nav0 li:hover .nav1{ display:block;}
+.nav1 li:hover .nav2{display:block;}
+
+
+.footer{margin:20px 0;height:100px; border:0px #000000 solid; border-radius:2px;box-shadow: 2px 2px 3px ;
+        padding-top:20px; }
+.footer{
+  background: -webkit-linear-gradient(#0af, #05b); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#0af, #05b); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#0af, #05b); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#0af,#05b); /* 标准的语法 */
+}
+
+
+.footer ul{ margin-left:200px; color:#fff;}
+.footer li{ float:left; margin-left:20px;text-align:center;}
+.footer li a{ background:transparent;color:#fff}
+.footer li a:hover{color:#922;}
+.Clear{ clear:both;}
+.clr{clear:both;}
+
+
+.QQ{ margin:0 -1px;width:31px ;height:25px;vertical-align: middle;}
+.QQ1{display:inline;letter-spacing:0px;color:#666;font-size:15px;}
+.weixin1{margin:15px 10px;display:block;}
+.weixin2{width:100px ;height:100px;margin:10px 65px;display:block;}

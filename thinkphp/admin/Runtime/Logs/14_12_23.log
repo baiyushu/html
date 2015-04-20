@@ -1,0 +1,9 @@
+[ 2014-12-23T01:49:55+08:00 ] ERR: (ThinkException) 非法操作:down_file
+[ 2014-12-23T01:50:18+08:00 ] ERR: (ThinkException) 非法操作:down_file
+[ 2014-12-23T01:57:25+08:00 ] ERR: (ThinkException) XML标签语法错误
+[ 2014-12-23T01:57:25+08:00 ] ERR: (ThinkException) 无法加载模块:__PUBLIC__
+[ 2014-12-23T01:57:28+08:00 ] ERR: (ThinkException) XML标签语法错误
+[ 2014-12-23T01:57:28+08:00 ] ERR: (ThinkException) 无法加载模块:__PUBLIC__
+[ 2014-12-23T03:00:06+08:00 ] ERR: (ThinkException) 模板不存在[./admin/Tpl/Manager/modify.html]
+[ 2014-12-23T03:01:14+08:00 ] ERR: (ThinkException) 模板不存在[./admin/Tpl/Manager/modify.html]
+[ 2014-12-23T03:13:30+08:00 ] ERR: (ThinkException) 模板不存在[./admin/Tpl/Manager/add_manager.html]

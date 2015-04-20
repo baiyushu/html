@@ -1,0 +1,23 @@
+﻿<include file="Public/html/common1.html"/>
+
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;产品列表&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+
+<volist name="list" id="vo">
+<div class="product_image">
+<a href="__URL__/preview/name/<{$vo.name}>">
+<img alt="<{$vo.name}>" title="<{$vo.name}>" src="__PUBLIC__/up/Product_image/<{$vo.image_name}>"/></a>
+<a href="__URL__/preview/name/<{$vo.name}>"><{$vo.name}></a> 
+<a class="b1"  href="__URL__/delete_product/name/<{$vo.name}>">删除</a>
+</div>
+</volist>
+
+<div class="clr"></div>
+<div class="page_list"><{$page}></div>
+</div>
+<include file="Public/html/common2.html"/>
+

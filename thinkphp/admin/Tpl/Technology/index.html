@@ -1,0 +1,41 @@
+﻿<include file="Public/html/common1.html"/>
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;技术支持&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<script type="text/javascript">
+function myFunction()
+{
+$("#add_img").append("<input type='file'  name='file\[\]' />&nbsp;&nbsp;图片位置:&nbsp;"+
+"<select name='pos\[\]'>"+
+"<option value='1'>1段前</option>"+
+"<option value='2'>2段前</option>"+
+"<option value='3'>3段前</option>"+
+"<option value='4'>4段前</option>"+
+"<option value='5'>5段前</option>"+
+"<option value='6'>6段前</option>"+
+"<option value='7'>7段前</option>"+
+"</select>"+
+"&nbsp;&nbsp;&nbsp;图片描述:<br/>"+
+"<textarea name='des\[\]' cols='90' rows='3'></textarea><br/>"
+);
+}
+</script>
+
+<div class="wrap">
+<form id="form1" name="form1" method="post" action="__URL__/clinical_skills"  enctype="multipart/form-data">
+类型：
+<select name="type">
+<option value="0">临床技术</option>
+<option value="1">检测项目</option>
+</select>&nbsp;&nbsp;&nbsp;标题:
+<input type="input"  name="title" />
+<div><textarea name="cont" cols="90" rows="30" wrap="physical"></textarea></div>
+<div id="add_img"><input type="button" class="b0" id="add" onclick="myFunction()" value="添加图片" /><br/>
+
+</div>
+<div><input class="b0" type="submit" name="Submit"  value="提交" /></div>
+</form>
+</div>
+<include file="Public/html/common2.html"/>

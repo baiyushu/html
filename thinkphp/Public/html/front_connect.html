@@ -1,0 +1,77 @@
+﻿<div class="content2">
+
+<div class="left">
+
+<div class="left_1">
+<div class="headline"><img src="__PUBLIC__/images/image/image/1.png"/><p>联系我们</p></div>
+<div class="left_nav"><img src="__PUBLIC__/images/image/image/2.png"/><a href="#">联系我们</a><p class="Clear"></p></div>
+
+</div>
+
+
+<div class="left_2">
+<div class="headline"><img src="__PUBLIC__/images/image/image/1.png"/><p>联系我们</p></div>
+<h4 class="left2_item">广州市丰牧动物药业有限公司</h4>
+<p class="left2_item">地址:&nbsp;
+<?php 
+for($i=0;$i<count($inf);$i++){
+if($inf[$i]["type"]=="公司地址") {
+ echo $inf[$i]["value"];
+ }
+}
+?>
+</p>
+<p class="left2_item">邮编:&nbsp;
+<?php 
+for($i=0;$i<count($inf);$i++){
+if($inf[$i]["type"]=="邮编") {
+ echo $inf[$i]["value"];
+ }
+}
+?></p>
+<p class="left2_item">联系人:&nbsp;
+<?php 
+for($i=0;$i<count($inf);$i++){
+if($inf[$i]["type"]=="联系人") {
+ echo $inf[$i]["value"];
+ }
+}
+?></p>
+<p class="left2_item">手机:&nbsp;
+<?php 
+for($i=0;$i<count($inf);$i++){
+if($inf[$i]["type"]=="手机") {
+ echo $inf[$i]["value"];
+ }
+}
+?></p>
+<p class="left2_item">电话:&nbsp;
+<?php 
+for($i=0;$i<count($inf);$i++){
+if($inf[$i]["type"]=="电话") {
+ echo $inf[$i]["value"];
+ }
+}
+?></p>
+<p class="left2_item">邮箱:&nbsp;
+<?php 
+for($i=0;$i<count($inf);$i++){
+if($inf[$i]["type"]=="邮箱") {
+ echo $inf[$i]["value"];
+ }
+}
+?></p>
+<p class="left2_item"> <img class="QQ" src="__PUBLIC__/images/image/common/QQ.png"/>:
+<?php echo $QQ[0]["value"]; ?>
+</p>
+<img class="weixin1" src="__PUBLIC__/images/image/common/weixin.png"/>
+<img class="weixin2" src="__PUBLIC__/images/weixin/weixin.png"/>
+</div>
+</div>
+
+
+<div class="right">
+<div class="headline">
+<img src="__PUBLIC__/images/image/image/1.png"/>
+<p>公司地图</p>
+</div>

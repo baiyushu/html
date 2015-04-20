@@ -1,0 +1,77 @@
+﻿<include file="Public/html/common1.html"/>
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;产品添加&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+
+<script>
+function myFunction0(){
+$("#add_attr1").append("<br/>属性：<input type='text' list='list' name='att1\[\]'/>"+
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值&nbsp;：&nbsp;<textarea name='val1\[\]' cols='100' rows='5' wrap='physical'></textarea>");
+}
+</script>
+
+<script>
+function myFunction1(){
+$("#add_attr2").append("<br/>属性：<input type='text' list='list' name='att2\[\]'/>"+
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值&nbsp;：&nbsp;<textarea name='val2\[\]' cols='100' rows='5' wrap='physical'></textarea>");
+}
+</script>
+
+
+
+<div class="wrap">
+<div>
+<form id="form1" name="form1" method="post" action="__URL__/add_product.php" enctype="multipart/form-data">
+类型1：
+<select name="type0">
+<option value="疫苗产品">疫苗产品
+<option value="其他产品">其他产品
+</select>
+
+类型2：
+<select name="type1">
+<option value="猪用疫苗">猪用疫苗
+<option value="家禽疫苗">家禽疫苗
+<option value="家畜疫苗">家畜疫苗
+<option value="宠物疫苗">宠物疫苗
+<option value="试剂">试剂
+<option value="器械">器械
+<option value="兽用药">兽用药
+<option value="消毒剂">消毒剂
+</select>
+&nbsp;名称：<input type="text" name="name1" /><br/>
+附图：<input type="file"  name="file1" />
+
+<div id="add_attr1">
+<datalist id="list">
+<option value="兽药名称" />
+<option value="主要成分与含量" />
+<option value="性状" />
+<option value="作用与用途" />
+<option value="用法与用量" />
+<option value="不良反应" />
+<option value="注意事项" />
+<option value="贮藏与有效期" />
+<option value="生产企业" />
+</datalist>
+
+属性：<input type="text" list="list" name="att1[]" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值&nbsp;：
+<textarea name="val1[]" cols="100" rows="5" wrap="physical"></textarea>
+</div>
+
+<input class="b0" type="button" id="add1" onclick="myFunction0()"  value="添加" /><br/>
+<input class="b0" type="submit" name="Submit1" value="提交" />
+</form> 
+</div>
+
+</div>
+ 
+ 
+
+<include file="Public/html/common2.html"/>
+
+
+
+

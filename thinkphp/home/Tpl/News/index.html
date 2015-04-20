@@ -1,0 +1,19 @@
+﻿<include file="Public/html/front.html"/>
+<include file="Public/QQ/index.html"/>
+<include file="Public/html/front_news.html"/>
+
+
+<div class="right_wrap">
+<table>
+<tr><th width="400px"></th><th width="200px"></th></tr>
+<volist name="list" id="vo">
+<tr>
+<td><a href="__URL__/news_details/title/<{$vo.news_title}>"><{$vo.news_title}></a></td>
+<td><{$vo.news_date}></td>
+</tr>
+</volist>
+</table>
+<div class="page_list"><{$page}></div>
+</div>
+
+<include file="Public/html/front1.html"/>

@@ -1,0 +1,22 @@
+﻿<include file="Public/html/common1.html"/>
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;新闻浏览&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+<table>
+<volist name="list" id="vo">
+<tr>
+<td><{$vo.news_title}></td>
+<td><{$vo.news_date}></td>
+<td><a href="__URL__/preview/title/<{$vo.news_title}>">预览</a></td>
+<td><a href="__URL__/delete/title/<{$vo.news_title}>">删除</a></td>
+</tr>
+</volist>
+</table>
+<div class="page_list"><{$page}></div>
+</div>
+<include file="Public/html/common2.html"/>
+
+

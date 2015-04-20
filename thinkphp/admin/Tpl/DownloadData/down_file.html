@@ -1,0 +1,23 @@
+﻿<include file="Public/html/common1.html"/>
+
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;资料管理&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+<table>
+<tr><th width="400px"></th><th width="200px"></th><th width="50px"></th></tr>
+<volist name="list" id="vo">
+<tr>
+<td><a href="__APP__/Filedownload/index/Id/<{$vo.Id}>"><{$vo.describle}></td><td><{$vo.DateTime}>
+</td><td width="50px"><a class="b1"  href="__URL__/delete_file/Id/<{$vo.Id}>">删除</a></td>
+</tr>
+</volist>
+</table>
+<div class="page_list"><{$page}></div>
+</div>
+
+
+
+<include file="Public/html/common2.html"/>

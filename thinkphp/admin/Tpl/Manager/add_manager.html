@@ -1,0 +1,22 @@
+﻿<include file="Public/html/common1.html"/>
+<link rel="stylesheet" href="__PUBLIC__/Css/login.css">
+
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;添加管理员&nbsp;</div>
+</div>
+</div>
+<div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+<form action="__URL__/add_manager_1" method="post">
+<div class="password">
+
+<div><input type="text" name="username" pattern="[0-9A-Za-z]{2,}\@[0-9A-Za-z]{2,}\.[0-9A-Za-z]{2,}"
+class="username" placeholder="管理员账号" ></div>
+
+<div><input type="password" name="password" required  class="pwd" placeholder="初始密码"></div>
+<div><input type="password" name="password_ack" required  class="pwd" placeholder="密码确认"></div>
+<input type="submit" name="submit" id="sub_btn" value="&nbsp;添&nbsp;&nbsp;加"/>
+</div>
+</form>
+</div>
+<include file="Public/html/common2.html"/>

@@ -1,0 +1,20 @@
+﻿<include file="Public/html/common1.html"/>
+
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;技术列表&nbsp;</div>
+      </div>
+    </div>
+ <div class="main">
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/> 
+<div class="wrap">
+<table>
+<volist name="list" id="vo">
+<tr>
+<td><{$vo.title}></td>
+<td><a href="__URL__/preview/title/<{$vo.title}>">预览</a></td>
+<td><a href="__URL__/delete/title/<{$vo.title}>">删除</a></td>
+</tr>
+</volist>
+</table>
+<div class="page_list"><{$page}></div>
+</div>
+<include file="Public/html/common2.html"/>

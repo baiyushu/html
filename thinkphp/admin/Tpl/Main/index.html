@@ -1,0 +1,79 @@
+﻿<include file="Public/html/common1.html"/>
+<div id="here_area" class="fl">当前位置&nbsp;&gt;&gt;系统设置&nbsp;</div>
+</div>
+</div>
+
+<link href="__PUBLIC__/Css/common.css" rel="stylesheet" type="text/css"/>
+<script>
+function myFunction(){
+$("#add").before(
+"<div id='add_attr'>"+
+"属性：&nbsp;"+
+"<select name='type[]'>"+
+"<option value='QQ'>QQ"+
+"<option value='手机'>手机"+
+"<option value='电话'>电话"+
+"<option value='公司地址'>公司地址"+
+"<option value='地址经度'>地址经度"+
+"<option value='地址维度'>地址维度"+
+"<option value='联系人'>联系人"+
+"<option value='邮编'>邮编"+
+"</select>"+
+"<br>值&nbsp;&nbsp;&nbsp;&nbsp;："+
+"<input type='text' list='list' name='value[]' />"+
+"</div>"
+);
+
+}
+</script>
+
+
+<div class="main">
+<form action="__URL__/com_inf" method="post">
+
+<div class="main_content" >
+<h3>公司信息</h3><br><br>
+属性：
+<select name="type[]">
+<option value="QQ">QQ
+<option value="手机">手机
+<option value="电话">电话
+<option value="公司地址">公司地址
+<option value="地址经度">地址经度
+<option value="地址维度">地址维度
+<option value="联系人">联系人
+<option value="邮编">邮编
+</select><br>
+值&nbsp;&nbsp;&nbsp;：
+<input type="text" list="list" name="value[]" /><br/>
+<input class="b0" type="button" id="add" onclick="myFunction()"  value="添加" />
+<input class="b0" type="submit" name="Submit1" value="更新" />
+</div>
+</form>
+
+
+<form action="__URL__/com_inf" method="post" enctype="multipart/form-data">
+<div class="main_content">
+<h3>添加微信图片(png格式)</h3><br/><br/>
+<input type='file'  name='wenxin'>  <br/>
+<br/>
+<input type="submit"  class="b0" name="Submit3"  value="提交" >
+</div>
+</form>
+
+
+<form action="__URL__/com_inf" method="post" enctype="multipart/form-data">
+<div class="main_content">
+<h3>焦点图</h3><br><br>上传四张焦点图，命名规则1.jpg，2.jpg，3.jpg，4.jpg<br/>
+ <input type='file'  name='photo[]'>  <br/>
+ <input type='file'  name='photo[]'>  <br/>
+ <input type='file'  name='photo[]'>  <br/>
+ <input type='file'  name='photo[]'>  <br/>
+ <br/>
+ <input type="submit"  class="b0" name="Submit2"  value="提交" >
+ </form>
+ 
+ 
+ </div>
+
+<include file="Public/html/common2.html"/>
